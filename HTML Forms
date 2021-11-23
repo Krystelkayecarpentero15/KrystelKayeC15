@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML FORMS</title>
+<style>
+body{
+     background-color:#93f542
+}
+</style>
+    </head>
+  <body>
+  <center>
+       <h1>HTML Form</h1>		
+       <form>
+            <label for="firstname">First name:</label>
+            <input type="text" name="firstname" placeholder="enter firstname" required="firstname">
+            <br><br>
+            <label for="middlename">Middle Name:</label>
+            <input type="text" name="middle" placeholder="enter middlename" required="middlename">
+            <br><br>
+            <labe for="familyname">Family Name:</label>
+            <input type="text" name="familyname" placeholder="enter familyname" required="familyname">
+            <br><br>
+            <label for="Gender">Gender:</label>
+            <input type="radio" required="male">male
+            <input type="radio" required="female">female
+            <br><br>
+            <label for="email">Email:</label>
+            <input type"email" name="email" placeholder="enter email" required="email">
+            <br><br>
+            <label for="home address">Home Address:</label>
+            <textarea name="home address" id="home" cols="30" rows="2"></textarea>
+            <br><br>
+            
+            Hobbies:
+            <input type="checkbox">Computer games
+            <input type="checkbox">Playing music instrument
+            <input type="checkbox">Cooking
+            <input type="checkbox">Drawing
+            <br><br>
+            <label for="favorite color">Favorite Color:</>
+            <select name="Favorite color">FAVORITE COLOR				<option value="Red">red</option>				<option value="blue">blue</option>				<option value="green">black</option>				<option value="pink">pink</option>							</select>			<br><br>
+          <label for="about yourself">Say something about yourself:</label><br>			<textarea name="home address" id=" home" cols="30" rows="10"></textarea>			<br><br>			<button type="submit">submit</button>			<button type="reset">clear</button> 
+      </form>
+  </center>
+  </body>
+</html>
